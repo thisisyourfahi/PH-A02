@@ -1,0 +1,68 @@
+/* inter font */
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* maximum width of body */
+body {
+    max-width: 1600px;
+    border: 1px dotted white;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+
+
+/* shared styles */
+.gradient {
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-48 {
+    font-size: 3rem;
+}
+
+.btn-primary {
+    width: 135px;
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    padding: 12px, 16px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    font-weight: 600;
+}
+
+
+
+/* individual styles */
+
+/* navbar styles */
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.navbar ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
