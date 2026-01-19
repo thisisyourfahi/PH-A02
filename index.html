@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,50 @@
     <!-- link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body class="font-inter">
     <!-- navbar and banner -->
     <header>
         <nav class="navbar">
-            <h2 class="text-48">
+            <h2 class="text-48 btn">
                 Tech<span class="gradient">Wave</span>
             </h2>
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Episodes</a></li>
-                <li><a href="">Host</a></li>
+                <li class="btn"><a href="">About</a></li>
+                <li class="btn"><a href="">Episodes</a></li>
+                <li class="btn"><a href="">Host</a></li>
             </ul>
-            <button class="btn-primary">
+            <button class="btn btn-primary">
                 <p>Subscribe</p>
-                <i class="fa-solid fa-arrow-right"></i> 
+                <i class="fa-solid fa-arrow-right"></i>
             </button>
         </nav>
+
+        <div class="banner-section">
+            <div class="banner-content">
+                <div class="banner-images">
+                    <img src="./images/microphone.png" alt="">
+                </div>
+                <div class="banner-description">
+                    <h2 class="banner-title">Tech<span class="gradient">Wave</span></h2>
+                    <p class="banner-p">Your daily dose of tech insights,
+                        productivity hacks, and personal growth
+                    </p>
+                    <div class="banner-buttons">
+                        <button class="btn btn-primary spotify">
+                            <i class="fa-brands fa-spotify"></i>
+                            <p>Listen On Spotify</p>
+                        </button>
+                        <button class="subscribe btn">
+                            <i class="fa-regular fa-envelope"></i>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
 </body>
+
 </html>

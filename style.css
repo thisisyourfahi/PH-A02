@@ -10,6 +10,7 @@ body {
     border: 1px dotted white;
     margin: 0 auto;
     background-color: #1A0B2E;
+    color: white;
 }
 
 
@@ -23,6 +24,10 @@ body {
 
 .text-48 {
     font-size: 3rem;
+}
+
+.text-60 {
+    font-size: 4rem;
 }
 
 .btn-primary {
@@ -42,13 +47,16 @@ body {
     font-weight: 600;
 }
 
+.btn:hover {
+    transform: scale(1.15);
+    transition: transform 200ms ease-in-out 0s;
+}
 
 
 /* individual styles */
 
 /* navbar styles */
 .navbar {
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,4 +73,61 @@ body {
     font-weight: 500;
     text-decoration: none;
     color: white;
+}
+
+/* banner styles */
+.banner-section {
+    border-top: 1px solid #2A186C;
+    background-image: url('./images/hero-bg.png');
+    height: 760px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-images {
+    height: 350px;
+    width: 350px;
+    /* margin-bottom: 40px; */
+
+    background-image: url('./images/hero-circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.spotify {
+    width: 210px;
+}
+
+.subscribe {
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 12px 20px;
+    color: #00FF88;
 }
