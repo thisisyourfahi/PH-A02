@@ -7,7 +7,6 @@
 /* maximum width of body */
 body {
     max-width: 1600px;
-    /* border: 1px dotted white; */
     margin: 0 auto;
     background-color: #1A0B2E;
     color: white;
@@ -406,11 +405,11 @@ footer {
 
 
 
-.new {
-    top: 0;
-    right: -10px;
-    padding: 0 20px;
-}
+    .new {
+        top: 0;
+        right: -10px;
+        padding: 0 20px;
+    }
 
 
 
