@@ -97,6 +97,10 @@ button:hover {
 
 }
 
+.hamburger {
+    display: none;
+}
+
 .navbar ul li a {
     font-weight: 500;
     text-decoration: none;
@@ -136,6 +140,22 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+}
+
+.new {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+    background: #00FF88;
+    border-radius: 2rem;
+    padding: 2px 20px;
+    color: black;
+
+    box-shadow: 0 0 20px #00FF88;
+
 }
 
 .banner-title {
@@ -351,7 +371,16 @@ footer {
 /* small device responsive design */
 @media screen and (max-width:576px) {
     .navbar {
-        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navbar ul,
+    .navbar button {
+        display: none;
+    }
+
+    .navbar .hamburger {
+        display: block;
     }
 
     .banner-section {
@@ -371,8 +400,20 @@ footer {
     }
 
     .banner-images img {
+        display: block;
         height: 80px;
     }
+
+
+
+.new {
+    top: 0;
+    right: -10px;
+    padding: 0 20px;
+}
+
+
+
 
     .navbar ul {
         margin-top: -30px;
