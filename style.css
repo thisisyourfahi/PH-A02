@@ -495,20 +495,16 @@ footer {
         padding: 2rem 1rem;
         min-height: 248px;
         background-position: center;
-        /* height: 100%; */
-        /* width: 100vp */
     }
 
     .footer-content {
         margin: 40px 40px;
-        /* width: 150px; */
         min-height: 150px;
     }
 
     .socials {
         flex-wrap: wrap;
         flex-direction: row;
-        /* width: 100%; */
         justify-content: center;
         column-gap: 16px;
         row-gap: 16px;
